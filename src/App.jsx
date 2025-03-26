@@ -9,6 +9,8 @@ import App6 from "./components/App6";
 import App7 from "./components/App7";
 import App8 from "./components/App8";
 import App9 from "./components/App9";
+import App10 from "./components/App10";
+
 
 
 function App() {
@@ -25,6 +27,8 @@ function App() {
           <Link to="app7" className="box">App7</Link>
           <Link to="app8" className="box">App8</Link>
           <Link to="app9" className="box">App9</Link>
+          <Link to="app10" className="box">App10</Link>
+
 
 
         </div>
@@ -41,6 +45,8 @@ function App() {
             <Route path="app7" element={<App7 />} />
             <Route path="app8" element={<App8 />} />
             <Route path="app9" element={<App9 />} />
+            <Route path="app10" element={<App10 />} />
+
 
 
           </Routes>
