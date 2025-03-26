@@ -7,6 +7,7 @@ export default function App2() {
     
   };
   const decrement = () => {
+    if(count > 0)
     setCount(count-1)
   };
   return (
